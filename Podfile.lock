@@ -1,0 +1,24 @@
+PODS:
+  - IQKeyboardManager (3.3.7)
+  - JKCategories (1.5)
+  - Masonry (1.0.2)
+  - QMUIKit (1.6.0)
+  - ReactiveObjC (3.0.0)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - JKCategories
+  - Masonry
+  - QMUIKit
+  - ReactiveObjC
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
+  JKCategories: 863f4c7ed2d521ee6bf72ceea97948da23bb5af4
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  QMUIKit: 10d62af5a36b0eb16499d3c6713b37e6d4731170
+  ReactiveObjC: ce79989e8684b9086b5f8d0c74bc7b81a8729c9e
+
+PODFILE CHECKSUM: 969c1f857e720db8bb632f1fb4f11ab62214bcd9
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  LivePlayer
+//
+//  Created by pptk on 2017/8/7.
+//  Copyright © 2017年 dfsd. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+
+#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+
+#define HexRGB(rgbValue)    [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define kScale DEVICE_HEIGHT/1334.0
