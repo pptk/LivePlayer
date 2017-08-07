@@ -128,7 +128,7 @@
 }
 
 - (void)setCellInfo:(ETMSLiveComModel *)info{
-    [headerBtn setBackgroundImage:UIImageMake(info.head) forState:UIControlStateNormal];
+    [headerBtn setBackgroundColor:UIColorRed];
     nameLabel.text = info.name;
     commentLabel.attributedText = [self getAttr:info.comment];
     [commentLabel sizeToFit];

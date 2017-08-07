@@ -39,7 +39,6 @@
 		AF2C82B91F387FA200C0F196 /* navBar_icon_back_nml@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2C82B51F387FA200C0F196 /* navBar_icon_back_nml@2x.png */; };
 		AF2C82BA1F387FA200C0F196 /* store_comment_addphoto_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2C82B61F387FA200C0F196 /* store_comment_addphoto_btn.png */; };
 		AF2C82BC1F38806700C0F196 /* navBar_bg_nml@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2C82BB1F38806700C0F196 /* navBar_bg_nml@2x.png */; };
-		AF2C82BE1F38819700C0F196 /* head_image.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AF2C82BD1F38819700C0F196 /* head_image.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -118,7 +117,6 @@
 		AF2C82B51F387FA200C0F196 /* navBar_icon_back_nml@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBar_icon_back_nml@2x.png"; sourceTree = "<group>"; };
 		AF2C82B61F387FA200C0F196 /* store_comment_addphoto_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_comment_addphoto_btn.png; sourceTree = "<group>"; };
 		AF2C82BB1F38806700C0F196 /* navBar_bg_nml@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBar_bg_nml@2x.png"; sourceTree = "<group>"; };
-		AF2C82BD1F38819700C0F196 /* head_image.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = head_image.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,7 +293,6 @@
 		AF2C827A1F38753A00C0F196 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AF2C82BD1F38819700C0F196 /* head_image.jpeg */,
 				AF2C82BB1F38806700C0F196 /* navBar_bg_nml@2x.png */,
 				AF2C82B31F387FA200C0F196 /* home_video_back_fullScreen_btn@2x.png */,
 				AF2C82B41F387FA200C0F196 /* home_video_fullScreen_btn@2x.png */,
@@ -454,7 +451,6 @@
 				AF2C82BC1F38806700C0F196 /* navBar_bg_nml@2x.png in Resources */,
 				AF2C829A1F38753A00C0F196 /* live_keyboard_icon.png in Resources */,
 				AF2C82991F38753A00C0F196 /* live_emotion_icon.png in Resources */,
-				AF2C82BE1F38819700C0F196 /* head_image.jpeg in Resources */,
 				AF2C829B1F38753A00C0F196 /* live_online_member.png in Resources */,
 				AF2C82BA1F387FA200C0F196 /* store_comment_addphoto_btn.png in Resources */,
 				AF2C82301F38737600C0F196 /* Assets.xcassets in Resources */,
