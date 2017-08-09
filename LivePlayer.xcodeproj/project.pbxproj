@@ -16,11 +16,6 @@
 		AF2C823E1F38737600C0F196 /* LivePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C823D1F38737600C0F196 /* LivePlayerTests.m */; };
 		AF2C82491F38737600C0F196 /* LivePlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82481F38737600C0F196 /* LivePlayerUITests.m */; };
 		AF2C828A1F38753A00C0F196 /* QMUITextField+HideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82591F38753A00C0F196 /* QMUITextField+HideMenu.m */; };
-		AF2C828B1F38753A00C0F196 /* ETMSDanmakuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C825C1F38753A00C0F196 /* ETMSDanmakuCell.m */; };
-		AF2C828C1F38753A00C0F196 /* ETMSLiveCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C825E1F38753A00C0F196 /* ETMSLiveCommentTableViewCell.m */; };
-		AF2C828D1F38753A00C0F196 /* ETMSLiveCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82601F38753A00C0F196 /* ETMSLiveCommentView.m */; };
-		AF2C828E1F38753A00C0F196 /* ETMSLiveMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82621F38753A00C0F196 /* ETMSLiveMediaView.m */; };
-		AF2C828F1F38753A00C0F196 /* ETMSLivePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82641F38753A00C0F196 /* ETMSLivePlayerView.m */; };
 		AF2C82951F38753A00C0F196 /* ETMSLiveComModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82761F38753A00C0F196 /* ETMSLiveComModel.m */; };
 		AF2C82971F38753A00C0F196 /* live_comment_send_off.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2C827B1F38753A00C0F196 /* live_comment_send_off.png */; };
 		AF2C82981F38753A00C0F196 /* live_comment_send_on.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2C827C1F38753A00C0F196 /* live_comment_send_on.png */; };
@@ -39,6 +34,13 @@
 		AF2C82B91F387FA200C0F196 /* navBar_icon_back_nml@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2C82B51F387FA200C0F196 /* navBar_icon_back_nml@2x.png */; };
 		AF2C82BA1F387FA200C0F196 /* store_comment_addphoto_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2C82B61F387FA200C0F196 /* store_comment_addphoto_btn.png */; };
 		AF2C82BC1F38806700C0F196 /* navBar_bg_nml@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF2C82BB1F38806700C0F196 /* navBar_bg_nml@2x.png */; };
+		AF2C82F01F3AEDB300C0F196 /* ETMSInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82E31F3AEDB300C0F196 /* ETMSInputView.m */; };
+		AF2C82F11F3AEDB300C0F196 /* ETMSDanmakuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82E61F3AEDB300C0F196 /* ETMSDanmakuCell.m */; };
+		AF2C82F21F3AEDB300C0F196 /* ETMSLiveCommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82E81F3AEDB300C0F196 /* ETMSLiveCommentTableViewCell.m */; };
+		AF2C82F31F3AEDB300C0F196 /* ETMSLiveCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82EA1F3AEDB300C0F196 /* ETMSLiveCommentView.m */; };
+		AF2C82F41F3AEDB300C0F196 /* ETMSLiveMediaView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82ED1F3AEDB300C0F196 /* ETMSLiveMediaView.m */; };
+		AF2C82F51F3AEDB300C0F196 /* ETMSLivePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82EF1F3AEDB300C0F196 /* ETMSLivePlayerView.m */; };
+		AF2C82F81F3AEE5D00C0F196 /* ETMSLiveViewController+ImListener.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2C82F71F3AEE5D00C0F196 /* ETMSLiveViewController+ImListener.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,16 +80,6 @@
 		AF2C824A1F38737600C0F196 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF2C82581F38753A00C0F196 /* QMUITextField+HideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "QMUITextField+HideMenu.h"; sourceTree = "<group>"; };
 		AF2C82591F38753A00C0F196 /* QMUITextField+HideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QMUITextField+HideMenu.m"; sourceTree = "<group>"; };
-		AF2C825B1F38753A00C0F196 /* ETMSDanmakuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSDanmakuCell.h; sourceTree = "<group>"; };
-		AF2C825C1F38753A00C0F196 /* ETMSDanmakuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSDanmakuCell.m; sourceTree = "<group>"; };
-		AF2C825D1F38753A00C0F196 /* ETMSLiveCommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSLiveCommentTableViewCell.h; sourceTree = "<group>"; };
-		AF2C825E1F38753A00C0F196 /* ETMSLiveCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSLiveCommentTableViewCell.m; sourceTree = "<group>"; };
-		AF2C825F1F38753A00C0F196 /* ETMSLiveCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSLiveCommentView.h; sourceTree = "<group>"; };
-		AF2C82601F38753A00C0F196 /* ETMSLiveCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSLiveCommentView.m; sourceTree = "<group>"; };
-		AF2C82611F38753A00C0F196 /* ETMSLiveMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSLiveMediaView.h; sourceTree = "<group>"; };
-		AF2C82621F38753A00C0F196 /* ETMSLiveMediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSLiveMediaView.m; sourceTree = "<group>"; };
-		AF2C82631F38753A00C0F196 /* ETMSLivePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSLivePlayerView.h; sourceTree = "<group>"; };
-		AF2C82641F38753A00C0F196 /* ETMSLivePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSLivePlayerView.m; sourceTree = "<group>"; };
 		AF2C82751F38753A00C0F196 /* ETMSLiveComModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSLiveComModel.h; sourceTree = "<group>"; };
 		AF2C82761F38753A00C0F196 /* ETMSLiveComModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSLiveComModel.m; sourceTree = "<group>"; };
 		AF2C827B1F38753A00C0F196 /* live_comment_send_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = live_comment_send_off.png; sourceTree = "<group>"; };
@@ -117,6 +109,20 @@
 		AF2C82B51F387FA200C0F196 /* navBar_icon_back_nml@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBar_icon_back_nml@2x.png"; sourceTree = "<group>"; };
 		AF2C82B61F387FA200C0F196 /* store_comment_addphoto_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = store_comment_addphoto_btn.png; sourceTree = "<group>"; };
 		AF2C82BB1F38806700C0F196 /* navBar_bg_nml@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navBar_bg_nml@2x.png"; sourceTree = "<group>"; };
+		AF2C82E21F3AEDB300C0F196 /* ETMSInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSInputView.h; sourceTree = "<group>"; };
+		AF2C82E31F3AEDB300C0F196 /* ETMSInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSInputView.m; sourceTree = "<group>"; };
+		AF2C82E51F3AEDB300C0F196 /* ETMSDanmakuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSDanmakuCell.h; sourceTree = "<group>"; };
+		AF2C82E61F3AEDB300C0F196 /* ETMSDanmakuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSDanmakuCell.m; sourceTree = "<group>"; };
+		AF2C82E71F3AEDB300C0F196 /* ETMSLiveCommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSLiveCommentTableViewCell.h; sourceTree = "<group>"; };
+		AF2C82E81F3AEDB300C0F196 /* ETMSLiveCommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSLiveCommentTableViewCell.m; sourceTree = "<group>"; };
+		AF2C82E91F3AEDB300C0F196 /* ETMSLiveCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSLiveCommentView.h; sourceTree = "<group>"; };
+		AF2C82EA1F3AEDB300C0F196 /* ETMSLiveCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSLiveCommentView.m; sourceTree = "<group>"; };
+		AF2C82EC1F3AEDB300C0F196 /* ETMSLiveMediaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSLiveMediaView.h; sourceTree = "<group>"; };
+		AF2C82ED1F3AEDB300C0F196 /* ETMSLiveMediaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSLiveMediaView.m; sourceTree = "<group>"; };
+		AF2C82EE1F3AEDB300C0F196 /* ETMSLivePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETMSLivePlayerView.h; sourceTree = "<group>"; };
+		AF2C82EF1F3AEDB300C0F196 /* ETMSLivePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ETMSLivePlayerView.m; sourceTree = "<group>"; };
+		AF2C82F61F3AEE5D00C0F196 /* ETMSLiveViewController+ImListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ETMSLiveViewController+ImListener.h"; sourceTree = "<group>"; };
+		AF2C82F71F3AEE5D00C0F196 /* ETMSLiveViewController+ImListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ETMSLiveViewController+ImListener.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,16 +259,9 @@
 		AF2C825A1F38753A00C0F196 /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
-				AF2C825B1F38753A00C0F196 /* ETMSDanmakuCell.h */,
-				AF2C825C1F38753A00C0F196 /* ETMSDanmakuCell.m */,
-				AF2C825D1F38753A00C0F196 /* ETMSLiveCommentTableViewCell.h */,
-				AF2C825E1F38753A00C0F196 /* ETMSLiveCommentTableViewCell.m */,
-				AF2C825F1F38753A00C0F196 /* ETMSLiveCommentView.h */,
-				AF2C82601F38753A00C0F196 /* ETMSLiveCommentView.m */,
-				AF2C82611F38753A00C0F196 /* ETMSLiveMediaView.h */,
-				AF2C82621F38753A00C0F196 /* ETMSLiveMediaView.m */,
-				AF2C82631F38753A00C0F196 /* ETMSLivePlayerView.h */,
-				AF2C82641F38753A00C0F196 /* ETMSLivePlayerView.m */,
+				AF2C82E11F3AEDB300C0F196 /* InputView */,
+				AF2C82E41F3AEDB300C0F196 /* MsgView */,
+				AF2C82EB1F3AEDB300C0F196 /* PlayView */,
 			);
 			path = CustomUI;
 			sourceTree = "<group>";
@@ -310,10 +309,12 @@
 		AF2C82831F38753A00C0F196 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				AF2C82861F38753A00C0F196 /* ETMSLiveViewController+UI.h */,
-				AF2C82871F38753A00C0F196 /* ETMSLiveViewController+UI.m */,
 				AF2C82881F38753A00C0F196 /* ETMSLiveViewController.h */,
 				AF2C82891F38753A00C0F196 /* ETMSLiveViewController.m */,
+				AF2C82861F38753A00C0F196 /* ETMSLiveViewController+UI.h */,
+				AF2C82871F38753A00C0F196 /* ETMSLiveViewController+UI.m */,
+				AF2C82F61F3AEE5D00C0F196 /* ETMSLiveViewController+ImListener.h */,
+				AF2C82F71F3AEE5D00C0F196 /* ETMSLiveViewController+ImListener.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -335,6 +336,39 @@
 				AF2C82AA1F3875F500C0F196 /* HJDanmakuView.m */,
 			);
 			path = Libs;
+			sourceTree = "<group>";
+		};
+		AF2C82E11F3AEDB300C0F196 /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				AF2C82E21F3AEDB300C0F196 /* ETMSInputView.h */,
+				AF2C82E31F3AEDB300C0F196 /* ETMSInputView.m */,
+			);
+			path = InputView;
+			sourceTree = "<group>";
+		};
+		AF2C82E41F3AEDB300C0F196 /* MsgView */ = {
+			isa = PBXGroup;
+			children = (
+				AF2C82E51F3AEDB300C0F196 /* ETMSDanmakuCell.h */,
+				AF2C82E61F3AEDB300C0F196 /* ETMSDanmakuCell.m */,
+				AF2C82E71F3AEDB300C0F196 /* ETMSLiveCommentTableViewCell.h */,
+				AF2C82E81F3AEDB300C0F196 /* ETMSLiveCommentTableViewCell.m */,
+				AF2C82E91F3AEDB300C0F196 /* ETMSLiveCommentView.h */,
+				AF2C82EA1F3AEDB300C0F196 /* ETMSLiveCommentView.m */,
+			);
+			path = MsgView;
+			sourceTree = "<group>";
+		};
+		AF2C82EB1F3AEDB300C0F196 /* PlayView */ = {
+			isa = PBXGroup;
+			children = (
+				AF2C82EC1F3AEDB300C0F196 /* ETMSLiveMediaView.h */,
+				AF2C82ED1F3AEDB300C0F196 /* ETMSLiveMediaView.m */,
+				AF2C82EE1F3AEDB300C0F196 /* ETMSLivePlayerView.h */,
+				AF2C82EF1F3AEDB300C0F196 /* ETMSLivePlayerView.m */,
+			);
+			path = PlayView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -531,22 +565,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF2C828C1F38753A00C0F196 /* ETMSLiveCommentTableViewCell.m in Sources */,
 				AF2C82AB1F3875F500C0F196 /* HJDanmakuCell.m in Sources */,
+				AF2C82F31F3AEDB300C0F196 /* ETMSLiveCommentView.m in Sources */,
+				AF2C82F41F3AEDB300C0F196 /* ETMSLiveMediaView.m in Sources */,
+				AF2C82F81F3AEE5D00C0F196 /* ETMSLiveViewController+ImListener.m in Sources */,
 				AF2C829E1F38753A00C0F196 /* ETMSLiveViewController+UI.m in Sources */,
+				AF2C82F01F3AEDB300C0F196 /* ETMSInputView.m in Sources */,
 				AF2C829F1F38753A00C0F196 /* ETMSLiveViewController.m in Sources */,
 				AF2C82AE1F3875F500C0F196 /* HJDanmakuView.m in Sources */,
-				AF2C828B1F38753A00C0F196 /* ETMSDanmakuCell.m in Sources */,
+				AF2C82F11F3AEDB300C0F196 /* ETMSDanmakuCell.m in Sources */,
 				AF2C82B21F387E7800C0F196 /* QMUIConfigurationTemplate.m in Sources */,
-				AF2C828E1F38753A00C0F196 /* ETMSLiveMediaView.m in Sources */,
 				AF2C82951F38753A00C0F196 /* ETMSLiveComModel.m in Sources */,
-				AF2C828F1F38753A00C0F196 /* ETMSLivePlayerView.m in Sources */,
+				AF2C82F21F3AEDB300C0F196 /* ETMSLiveCommentTableViewCell.m in Sources */,
 				AF2C82281F38737600C0F196 /* AppDelegate.m in Sources */,
 				AF2C82AC1F3875F500C0F196 /* HJDanmakuConfiguration.m in Sources */,
-				AF2C828D1F38753A00C0F196 /* ETMSLiveCommentView.m in Sources */,
 				AF2C828A1F38753A00C0F196 /* QMUITextField+HideMenu.m in Sources */,
 				AF2C82251F38737600C0F196 /* main.m in Sources */,
 				AF2C82AD1F3875F500C0F196 /* HJDanmakuModel.m in Sources */,
+				AF2C82F51F3AEDB300C0F196 /* ETMSLivePlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

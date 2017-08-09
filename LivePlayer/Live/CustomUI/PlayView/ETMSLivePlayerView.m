@@ -10,6 +10,7 @@
 
 #import "ETMSLivePlayerView.h"
 #import <Masonry.h>
+
 #import <ReactiveObjC.h>
 #import "ETMSLiveMediaView.h"
 #import "NSTimer+JKAddition.h"
@@ -141,6 +142,7 @@
         [btn setTitle:@"1" forState:UIControlStateNormal];
         [btn setTitleColor:UIColorWhite forState:UIControlStateNormal];
         [btn setImage:UIImageMake(@"live_online_member") forState:UIControlStateNormal];
+        btn.imageView.contentMode = UIViewContentModeScaleAspectFit;
         [_bottomView addSubview:btn];
         btn;
     });
@@ -266,7 +268,7 @@
     [_guestNumBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.equalTo(weakSelf.changeScreenBtn.mas_left).offset(-20*kScale);
         make.centerY.equalTo(weakSelf.bottomView.mas_centerY).offset(20*kScale);
-        make.height.mas_equalTo(60*kScale);
+        make.height.mas_equalTo(40*kScale);
         make.width.mas_equalTo(100);
     }];
     [_barrageBtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -337,13 +339,17 @@
         _sendBtn.selected = NO;
         return;
     }else{//发送操作
+        //本地测试所用，正式删除，放开下面注释的代码
+        [NSTimer scheduledTimerWithTimeInterval:1.5 repeats:YES block:^(NSTimer * _Nonnull timer) {
+            ETMSLiveComModel *model = [[ETMSLiveComModel alloc]init];
+            model.comment = [NSString stringWithFormat:@"%@小胜多负少的发顺丰大是大非%d",_commentTextField.text,arc4random()%93432423];
+            model.userId = @"111";
+            [self sendDanmaku:model];
+        }];
         
-        //本地，自己发的，插入到弹幕
-        ETMSLiveComModel *model = [[ETMSLiveComModel alloc]init];
-        model.comment = _commentTextField.text;
-        model.userId = @"111";
-        [self sendDanmaku:model];
-        
+        if([_delegate respondsToSelector:@selector(sendCommentText:)]){
+            [_delegate sendCommentText:_commentTextField.text];
+        }
         [_commentTextField resignFirstResponder];
         _commentTextField.text = @"";
         _commentView.hidden = YES;
@@ -365,8 +371,14 @@
     if(!_mediaView.isFullScreen || _barrageBtn.selected){//如果不是全屏,或已关闭弹幕
         return;
     }
+//    ILVLiveTextMessage *msg = [[ILVLiveTextMessage alloc]init];
+//    msg.type = ILVLIVE_IMTYPE_GROUP;
+//    msg.text = model.comment;
     [_mediaView addDanmaku:model];
 }
+
+
+
 - (void)textFieldDidChange:(QMUITextField *)textField{
     if([[textField.text stringByReplacingOccurrencesOfString:@" " withString:@""] isEqualToString:@""]){//如果为空
         _sendBtn.selected = NO;
@@ -381,6 +393,8 @@
     [self handleSendComment:nil];
     return YES;
 }
+
+
 
 
 - (void)kvoKeyBoard{
@@ -415,7 +429,7 @@
  @param sender
  */
 - (void)handleShareClick:(id)sender{
-    NSLog(@"分享");
+    
 }
 
 #pragma mark - set 操作

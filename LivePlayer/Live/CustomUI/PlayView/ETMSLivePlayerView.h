@@ -4,7 +4,7 @@
 //
 //  Created by pptk on 2017/7/28.
 //  Copyright © 2017年 8wm. All rights reserved.
-//
+//  视频控制器
 
 #import <UIKit/UIKit.h>
 #import "ETMSLiveCommentView.h"
@@ -13,6 +13,7 @@
 @protocol PlayerDelegate <NSObject>
 
 - (void)setCommentText:(NSString *)text;//把 全屏输入框的文本 导入到 竖屏的输入框
+- (void)sendCommentText:(NSString *)text;//发送评论
 
 @end
 

@@ -8,12 +8,7 @@
 
 #import "ETMSLiveViewController.h"
 
-@interface ETMSLiveViewController (UI)<PlayerDelegate,QMUIKeyboardManagerDelegate,QMUITextViewDelegate>
+@interface ETMSLiveViewController (UI)<PlayerDelegate,QMUIKeyboardManagerDelegate,QMUITextViewDelegate,InputDelegate>
 
-//发送消息相关的方法
-- (void)initEmotion;
-
-- (void)handleEmoticonEvent:(QMUIButton *)sender;
-- (void)handleSendEvent:(QMUIButton *)sender;
 
 @end

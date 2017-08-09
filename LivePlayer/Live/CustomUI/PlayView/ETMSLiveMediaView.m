@@ -52,7 +52,10 @@
         }else{//如果是全屏
             if(!_danmakuView){
                 HJDanmakuConfiguration *config = [[HJDanmakuConfiguration alloc]initWithDanmakuMode:HJDanmakuModeLive];
-                _danmakuView = [[HJDanmakuView alloc]initWithFrame:self.bounds configuration:config];
+                config.duration = 12;
+                config.numberOfLines = 3;
+                config.cellHeight = 30;
+                _danmakuView = [[HJDanmakuView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH,100) configuration:config];
                 _danmakuView.dataSource = self;
                 _danmakuView.delegate = self;
                 [self.danmakuView registerClass:[ETMSDanmakuCell class] forCellReuseIdentifier:@"cell"];
@@ -305,6 +308,11 @@
 //        cell.layer.borderWidth = 0.5;
 //        cell.layer.borderColor = [UIColor redColor].CGColor;
 //    }
+    if(arc4random()%2 == 0){
+        cell.zIndex = 30;
+        cell.layer.borderWidth = 0.5;
+        cell.layer.borderColor = [UIColor redColor].CGColor;
+    }
     cell.textLabel.font = [UIFont systemFontOfSize:14];
     cell.textLabel.textColor = UIColorRed;
     cell.textLabel.text = model.comment;

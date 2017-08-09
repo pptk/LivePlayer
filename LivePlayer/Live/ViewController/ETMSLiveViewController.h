@@ -9,18 +9,15 @@
 
 #import "ETMSLiveCommentView.h"
 #import "ETMSLivePlayerView.h"
+#import "ETMSInputView.h"
+
 @interface ETMSLiveViewController : QMUICommonViewController
 {
-    ETMSLivePlayerView    *_playerView;
+    ETMSLivePlayerView    *_playView;
     
     ETMSLiveCommentView   *_msgView;//消息列表TableView
     
-    UIView          *_bottomView;//底部输入框父控件
-    QMUIButton      *_emoticonBtn;//表情按钮
-    QMUIButton      *_sendBtn;//发送按钮
-    QMUITextView    *_commentTextView;
-    QMUIQQEmotionManager *_qqEmotionManager;//表情框管理
-    UIView          *_grayView;//蒙版View   点击之后收起键盘
+    ETMSInputView         *_inputView;//底部输入框
     
 }
 
